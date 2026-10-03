@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Developers | HumanFrame Robotics</title>
+  <meta name="description" content="Learn how compatible Python web applications are packaged and deployed through HumanFrame Platform.">
+  <meta name="theme-color" content="#15191e">
+  <meta property="og:type" content="website"><meta property="og:site_name" content="HumanFrame"><meta property="og:title" content="Developers | HumanFrame Robotics"><meta property="og:description" content="The application contract and deployment workflow behind HumanFrame Platform."><meta property="og:url" content="https://humanframerobotics.com/developers/"><meta property="og:image" content="https://humanframerobotics.com/assets/media/platform/studio-dashboard.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://humanframerobotics.com/developers/">
+  <link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
+  <script src="/assets/js/init.js"></script><link rel="stylesheet" href="/assets/css/tokens.css"><link rel="stylesheet" href="/assets/css/base.css"><link rel="stylesheet" href="/assets/css/public.css"><script src="/assets/js/site.js" defer></script>
+</head>
+<body class="public-shell">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="public-header">
+    <a class="public-wordmark" href="/" aria-label="HumanFrame home"><span class="public-wordmark__mark" aria-hidden="true"><i></i><i></i><i></i></span><span>HumanFrame</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav public-nav" aria-label="Primary navigation"><a href="/alp/">Alp</a><a href="/technology/">Technology</a><a href="/platform/">Platform</a><a href="/developers/" aria-current="page">Developers</a><a href="/about/">About</a></nav>
+    <div class="public-header__action"><a href="/contact/">Contact <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <main id="main">
+    <header class="hf-page-intro"><p class="hf-kicker">Developers</p><h1>Build on<br>HumanFrame.</h1><p>Create compatible applications, package them with a small explicit contract and deploy through the working HumanFrame Platform.</p><div class="hf-actions"><a class="hf-button" href="/platform/">Explore the Platform</a><a class="hf-text-link" href="/contact/">Developer inquiries <span aria-hidden="true">↗</span></a></div></header>
+    <section class="hf-developer-contract">
+      <div><p class="hf-kicker">Application contract</p><h2>Small by design.</h2><p>The current runtime supports trusted Python web applications. A manifest names the entrypoint, declared port, version and optional capability requirements.</p></div>
+      <pre aria-label="Example HumanFrame application manifest"><code>{
+  "name": "Hello World",
+  "version": "0.1.0",
+  "type": "web",
+  "entrypoint": "app.py",
+  "port": 5000,
+  "required_capabilities": []
+}</code></pre>
+    </section>
+    <section class="hf-page-section hf-page-section--layers">
+      <article><span>01</span><h2>Validate</h2><p>Package admission checks the manifest, paths, archive limits and declared entrypoint before storage.</p></article>
+      <article><span>02</span><h2>Run</h2><p>Each deployment receives an isolated runtime, assigned port, process tracking and a required HTTP health check.</p></article>
+      <article><span>03</span><h2>Observe</h2><p>Status, application output, logs and previews stay attached to the deployment record.</p></article>
+    </section>
+    <section class="hf-page-note"><strong>Developer access is private</strong><p>This static website contains no account creation, upload or deployment interface. The operational HumanFrame Platform is intentionally not part of this deployment.</p></section>
+  </main>
+  <footer class="public-footer">
+    <div class="public-footer__brand"><a class="public-wordmark public-wordmark--footer" href="/">HumanFrame</a><p>HumanFrame Robotics</p></div>
+    <nav class="public-footer__nav" aria-label="Product navigation"><a href="/alp/">Alp</a><a href="/technology/">Technology</a><a href="/platform/">Platform</a><a href="/developers/">Developers</a></nav>
+    <nav class="public-footer__nav" aria-label="Company navigation"><a href="/about/">About</a><a href="/contact/">Contact</a></nav>
+    <p class="public-footer__legal">© 2026 HumanFrame Robotics</p>
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+/* Shared HumanFrame foundations. Product-specific presentation stays in public.css/main.css. */
+@font-face {
+  font-family: "Lato HF";
+  src: url("../fonts/lato-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato HF";
+  src: url("../fonts/lato-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700 900;
+  font-display: swap;
+}
+
+:root {
+  --hf-graphite: #15191e;
+  --hf-deep-studio: #0a0e12;
+  --hf-warm-white: #f5f2eb;
+  --hf-paper: #fbfaf6;
+  --hf-blue: #287c9d;
+  --hf-cyan: #72bed1;
+  --hf-orange: #eca05a;
+  --hf-mint: #9bc9b1;
+  --hf-line-light: rgb(21 25 30 / 14%);
+  --hf-line-dark: rgb(245 242 235 / 18%);
+  --hf-font-sans: "Lato HF", Lato, "Avenir Next", "Segoe UI", sans-serif;
+  --hf-font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --hf-page-max: 1440px;
+  --hf-reading-max: 760px;
+  --hf-section-space: clamp(6rem, 11vw, 11rem);
+  --hf-gutter: clamp(1.25rem, 4vw, 4.5rem);
+}
