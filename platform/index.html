@@ -3,45 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Platform | HumanFrame Robotics</title>
-  <meta name="description" content="HumanFrame Platform packages, deploys and monitors compatible applications across development machines and registered Linux robots.">
-  <meta name="theme-color" content="#15191e">
-  <meta property="og:type" content="website"><meta property="og:site_name" content="HumanFrame"><meta property="og:title" content="HumanFrame Platform"><meta property="og:description" content="Application packaging, deployment and monitoring infrastructure for HumanFrame systems."><meta property="og:url" content="https://humanframerobotics.com/platform/"><meta property="og:image" content="https://humanframerobotics.com/assets/media/platform/studio-dashboard.webp">
-  <meta name="twitter:card" content="summary_large_image">
+  <title>Application Platform | HumanFrame Robotics</title>
+  <meta name="description" content="Explore HumanFrame’s existing development workflows for application packaging, validation, robot selection, deployment information and logs.">
+  <meta name="theme-color" content="#FBFAF7">
   <link rel="canonical" href="https://humanframerobotics.com/platform/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="HumanFrame Robotics">
+  <meta property="og:title" content="Application Platform | HumanFrame Robotics">
+  <meta property="og:description" content="Explore HumanFrame’s existing development workflows for application packaging, validation, robot selection, deployment information and logs.">
+  <meta property="og:url" content="https://humanframerobotics.com/platform/">
+  <meta property="og:image" content="https://humanframerobotics.com/assets/media/platform/studio-dashboard.webp">
+  <meta property="og:image:alt" content="HumanFrame application Platform development dashboard with test data.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Application Platform | HumanFrame Robotics">
+  <meta name="twitter:description" content="Explore HumanFrame’s existing development workflows for application packaging, validation, robot selection, deployment information and logs.">
+  <meta name="twitter:image" content="https://humanframerobotics.com/assets/media/platform/studio-dashboard.webp">
+  <meta name="twitter:image:alt" content="HumanFrame application Platform development dashboard with test data.">
   <link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
-  <script src="/assets/js/init.js"></script><link rel="stylesheet" href="/assets/css/tokens.css"><link rel="stylesheet" href="/assets/css/base.css"><link rel="stylesheet" href="/assets/css/public.css"><script src="/assets/js/site.js" defer></script>
+  <link rel="preload" href="/assets/fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/tokens.css?v=b4e388e5">
+  <link rel="stylesheet" href="/assets/css/base.css?v=1489709b">
+  <link rel="stylesheet" href="/assets/css/public.css?v=dce8f344">
+  <script src="/assets/js/site.js?v=00f00f26" defer></script>
 </head>
-<body class="public-shell">
+<body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="public-header">
-    <a class="public-wordmark" href="/" aria-label="HumanFrame home"><span class="public-wordmark__mark" aria-hidden="true"><i></i><i></i><i></i></span><span>HumanFrame</span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-    <nav id="site-nav" class="site-nav public-nav" aria-label="Primary navigation"><a href="/alp/">Alp</a><a href="/technology/">Technology</a><a href="/platform/" aria-current="page">Platform</a><a href="/developers/">Developers</a><a href="/about/">About</a></nav>
-    <div class="public-header__action"><a href="/contact/">Contact <span aria-hidden="true">↗</span></a></div>
-  </header>
-  <main id="main">
-    <header class="hf-page-intro hf-page-intro--platform"><p class="hf-kicker">HumanFrame Platform</p><h1>Build. Deploy.<br>Keep moving.</h1><p>The current Platform turns a compatible Python web application into a validated artifact that can run locally or on a registered SSH-accessible Linux robot.</p><div class="hf-actions"><a class="hf-button" href="/developers/">See the developer workflow</a><a class="hf-text-link" href="/contact/">Contact HumanFrame <span aria-hidden="true">↗</span></a></div></header>
-    <figure class="hf-page-platform-shot"><picture><source media="(max-width: 700px)" srcset="/assets/media/platform/studio-dashboard-960.webp"><img src="/assets/media/platform/studio-dashboard.webp" alt="HumanFrame Platform dashboard with application, robot and deployment summaries" width="1600" height="1000"></picture><figcaption>Current working Platform interface · Private access</figcaption></figure>
-    <section class="hf-page-section hf-page-section--split">
-      <div><p class="hf-kicker">Current workflow</p><h2>A direct path to a running application.</h2></div>
-      <ol class="hf-page-flow">
-        <li><span>01</span><div><strong>Create</strong><p>Build a compatible Python web application.</p></div></li>
-        <li><span>02</span><div><strong>Package</strong><p>Add the manifest, entrypoint and requirements.</p></div></li>
-        <li><span>03</span><div><strong>Upload</strong><p>Validate and store the artifact.</p></div></li>
-        <li><span>04</span><div><strong>Select</strong><p>Choose the development machine or registered robot.</p></div></li>
-        <li><span>05</span><div><strong>Deploy</strong><p>Prepare the runtime, start and health check.</p></div></li>
-        <li><span>06</span><div><strong>Monitor</strong><p>Inspect status, logs and preview.</p></div></li>
-      </ol>
-    </section>
-    <section class="hf-page-note"><strong>Private Platform access</strong><p>This public website describes the current Platform, but it does not expose login, registration, application uploads, robot controls or any Platform endpoint. Platform deployment remains separate.</p></section>
-    <section class="hf-page-note"><strong>Current scope</strong><p>Trusted Python web applications, local development targets and SSH-accessible Linux robots. Broader runtime and agent capabilities remain future work.</p></section>
-  </main>
-  <footer class="public-footer">
-    <div class="public-footer__brand"><a class="public-wordmark public-wordmark--footer" href="/">HumanFrame</a><p>HumanFrame Robotics</p></div>
-    <nav class="public-footer__nav" aria-label="Product navigation"><a href="/alp/">Alp</a><a href="/technology/">Technology</a><a href="/platform/">Platform</a><a href="/developers/">Developers</a></nav>
-    <nav class="public-footer__nav" aria-label="Company navigation"><a href="/about/">About</a><a href="/contact/">Contact</a></nav>
-    <p class="public-footer__legal">© 2026 HumanFrame Robotics</p>
-  </footer>
+<header class="site-header public-header"><div class="container header-inner"><a class="brand" href="/" aria-label="HumanFrame home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>HumanFrame</span></a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button><nav id="site-nav" class="site-nav" aria-label="Primary navigation"><a class="nav-home" href="/">Home</a><a href="/robot/">Robot</a><a href="/research/">Research</a><details class="nav-group"><summary>Technology</summary><div class="nav-dropdown"><a href="/features/">Features</a><a href="/framework/">Framework</a></div></details><details class="nav-group"><summary>Applications</summary><div class="nav-dropdown"><a href="/applications/reminiscence/">Reminiscence</a></div></details><details class="nav-group"><summary>About</summary><div class="nav-dropdown"><a href="/why-humanframe/">Why HumanFrame</a><a href="/team/">Team</a></div></details><a class="nav-contact" href="/contact/">Contact</a></nav><a class="button button-primary header-contact" href="/contact/">Contact</a></div></header>
+<main id="main"><header class="page-hero container"><p class="eyebrow">Supporting the research robot</p><h1>From application to interaction.</h1><p class="page-intro">The HumanFrame Platform supports the application workflow behind our developing robot: package, deploy, inspect and refine.</p></header>
+<section class="section container"><figure class="media-frame platform-media"><img src="/assets/media/platform/studio-dashboard.webp" width="1585" height="991" alt="Development view of the HumanFrame application management dashboard showing application and robot deployment information" loading="lazy" decoding="async"><figcaption>Development dashboard · Test data and example robot entries, not customer deployments</figcaption></figure></section>
+<section class="section container"><div class="section-heading"><h2>A practical application workflow.</h2><p>Existing development functionality supports the work of preparing and managing robotic applications.</p></div><dl class="definition-list"><div class="definition-row"><dt>Prepare and validate</dt><dd>Upload an application package and check its structure before deployment.</dd></div><div class="definition-row"><dt>Select and deploy</dt><dd>Choose a robot target and initiate deployment of a compatible application.</dd></div><div class="definition-row"><dt>Inspect and iterate</dt><dd>View deployment information, application execution state and logs to inform the next revision.</dd></div></dl></section><section class="section container split"><h2>One part of the framework.</h2><div class="editorial-copy"><p>The Platform supports the robot and the software running on it. Prototype packaging and deployment workflows exist; the full end-to-end connection with the developing research unit is still being integrated.</p><p>This is development infrastructure, not a claim of production fleets or a publicly available service.</p><a class="text-link" href="/framework/">See how the layers connect <span aria-hidden="true">↗</span></a></div></section><section class="section container"><div class="cta-panel"><div><h2>Build around your research.</h2><p>Explore how applications and robot capabilities are being brought together.</p></div><a class="button button-primary" href="/research/">Explore research use cases</a></div></section></main>
+
+<footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a class="brand" href="/" aria-label="HumanFrame home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>HumanFrame</span></a><p>Accessible robotics for<br>research and education.</p><a class="text-link" href="mailto:humanframerobotics@gmail.com">Email HumanFrame <span aria-hidden="true">↗</span></a></div><nav class="footer-column" aria-label="Explore"><h2>Explore</h2><a href="/robot/">Robot</a><a href="/features/">Features</a><a href="/research/">Research</a><a href="/framework/">Framework</a></nav><nav class="footer-column" aria-label="Applications &amp; tools"><h2>Applications &amp; tools</h2><a href="/applications/reminiscence/">Reminiscence research</a><a href="/developers/">For developers</a><a href="/platform/" aria-current="page">Application Platform</a><a href="/technology/">Technology overview</a></nav><nav class="footer-column" aria-label="HumanFrame"><h2>HumanFrame</h2><a href="/why-humanframe/">Why HumanFrame</a><a href="/team/">Team</a><a href="/about/">About us</a><a href="/contact/">Contact</a><a href="/alp/">Alp overview</a></nav></div><div class="footer-bottom"><p>© 2026 HumanFrame Robotics</p><p>Research robot in development · Product visuals are design concepts</p></div></div></footer>
 </body>
 </html>

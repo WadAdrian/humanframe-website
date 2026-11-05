@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://humanframerobotics.com/</loc></url>
+  <url><loc>https://humanframerobotics.com/robot/</loc></url>
+  <url><loc>https://humanframerobotics.com/features/</loc></url>
+  <url><loc>https://humanframerobotics.com/research/</loc></url>
+  <url><loc>https://humanframerobotics.com/framework/</loc></url>
+  <url><loc>https://humanframerobotics.com/why-humanframe/</loc></url>
+  <url><loc>https://humanframerobotics.com/team/</loc></url>
+  <url><loc>https://humanframerobotics.com/applications/reminiscence/</loc></url>
+  <url><loc>https://humanframerobotics.com/contact/</loc></url>
   <url><loc>https://humanframerobotics.com/alp/</loc></url>
   <url><loc>https://humanframerobotics.com/technology/</loc></url>
-  <url><loc>https://humanframerobotics.com/platform/</loc></url>
   <url><loc>https://humanframerobotics.com/developers/</loc></url>
+  <url><loc>https://humanframerobotics.com/platform/</loc></url>
   <url><loc>https://humanframerobotics.com/about/</loc></url>
-  <url><loc>https://humanframerobotics.com/contact/</loc></url>
 </urlset>
-
