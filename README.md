@@ -9,10 +9,21 @@ The current implementation follows the user-authorized `HumanFrame_Website_Redes
 From this repository directory:
 
 ```sh
-python3 -m http.server 8080 --bind 127.0.0.1
+python3 scripts/preview.py
 ```
 
-Open http://127.0.0.1:8080/. No installation or build step is required.
+Open http://127.0.0.1:8080/. No installation or build step is required. Stop any
+existing preview server with Ctrl+C before restarting it.
+
+If your terminal is in the parent workspace containing this website folder, run:
+
+```sh
+python3 humanframe-website/scripts/preview.py
+```
+
+The preview script always serves the directory containing the site's `index.html`,
+even when started from another directory. Serving the parent workspace with a plain
+`python3 -m http.server` makes root-relative links such as `/team/` return 404.
 
 ```sh
 python3 scripts/validate_site.py
