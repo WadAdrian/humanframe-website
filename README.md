@@ -43,7 +43,7 @@ Serve this directory as the static site root and preserve directory indexes. For
 
 - The selected product visuals are labelled design concepts, not photographs of completed hardware. Team portraits and development CAD come from the supplied package. See [asset provenance](assets/media/ASSET_SOURCES.md).
 - Existing HumanFrame branding, favicon, local Lato fonts and the Platform development screenshot are retained. Older robot artwork remains unused.
-- The public inbox is `humanframerobotics@gmail.com`. The contact page validates details and prepares a plain-text `mailto:` draft. Visitors review and send it in their own email app. There is no POST endpoint, backend storage or automatic sending; a direct email fallback works without JavaScript.
+- The public inbox is `hello@humanframerobotics.com`. The contact page validates details and prepares a plain-text `mailto:` draft. Visitors review and send it in their own email app. There is no POST endpoint, backend storage or automatic sending; a direct email fallback works without JavaScript.
 - Native disclosure menus, responsive layouts, visible keyboard focus and reduced-motion preferences are supported. Headings, buttons, architecture diagrams and the illustrative research interface are HTML.
 - Shared CSS/JavaScript URLs use content-hash query versions. Update the relevant version across all HTML pages after changing a shared asset.
 - The SDK is in development, with no announced public release or download. Pricing and availability are not announced. The spring 2027 research-ready pilot is a qualified development target.

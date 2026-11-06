@@ -21,7 +21,7 @@ import xml.etree.ElementTree as ET
 
 
 ORIGIN = "https://humanframerobotics.com"
-CONTACT_EMAIL = "humanframerobotics@gmail.com"
+CONTACT_EMAIL = "hello@humanframerobotics.com"
 PRIMARY_ROUTES = (
     "/", "/robot/", "/features/", "/research/", "/framework/", "/why-humanframe/",
     "/applications/reminiscence/", "/team/", "/contact/",
