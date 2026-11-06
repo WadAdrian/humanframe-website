@@ -20,7 +20,7 @@ The header uses native disclosure menus for Technology, Applications and About, 
 
 ### Contact
 
-The approved public inbox is `humanframerobotics@gmail.com`. The client-side inquiry helper validates required details, displays a plain-text preview and prepares an encoded `mailto:` draft. It never sends a message or submits to a backend; the visitor sends it from their email app. Editing/resetting clears a stale draft. Research links preselect the collaboration topic. The direct email fallback remains available without JavaScript.
+The approved public inbox is `hello@humanframerobotics.com`. The client-side inquiry helper validates required details, displays a plain-text preview and prepares an encoded `mailto:` draft. It never sends a message or submits to a backend; the visitor sends it from their email app. Editing/resetting clears a stale draft. Research links preselect the collaboration topic. The direct email fallback remains available without JavaScript.
 
 ### Media
 

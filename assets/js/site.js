@@ -65,7 +65,7 @@
     const clearDraft = () => {
       inquiryPreview.hidden = true;
       inquiryBody.textContent = '';
-      inquiryEmail.href = 'mailto:humanframerobotics@gmail.com';
+      inquiryEmail.href = 'mailto:hello@humanframerobotics.com';
     };
 
     inquiryForm.addEventListener('submit', (event) => {
@@ -84,7 +84,7 @@
         value('message'), '',
       ].join('\n');
       inquiryBody.textContent = body;
-      inquiryEmail.href = `mailto:humanframerobotics@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      inquiryEmail.href = `mailto:hello@humanframerobotics.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       inquiryPreview.hidden = false;
       document.querySelector('#draft-title')?.focus();
     });
