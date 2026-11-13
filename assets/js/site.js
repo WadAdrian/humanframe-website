@@ -1,4 +1,9 @@
 (() => {
+  // Queue analytics calls until Vercel's deferred tracking script loads.
+  window.va = window.va || function () {
+    (window.vaq = window.vaq || []).push(arguments);
+  };
+
   const navigationToggle = document.querySelector('.nav-toggle');
   const navigation = document.querySelector('.site-nav');
   const header = document.querySelector('.site-header');

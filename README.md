@@ -39,6 +39,8 @@ Main destinations are `/`, `/robot/`, `/features/`, `/research/`, `/framework/`,
 
 Serve this directory as the static site root and preserve directory indexes. For the existing Vercel project, retain its domain/Git integration, use the **Other** framework preset and an empty build command. `vercel.json` supplies security/cache headers equivalent to `_headers`, with native file routing and no catch-all rewrite. These files do not deploy anything by themselves. A push or deployment requires explicit approval.
 
+Vercel Web Analytics uses the [HTML integration](https://vercel.com/docs/analytics/quickstart), with a deferred `/_vercel/insights/script.js` tag on every page and its queue initialized in `assets/js/site.js`. Enable **Web Analytics** in the Vercel project before deploying; Vercel supplies the script and collection endpoint. The security headers allow same-origin analytics requests. This static site does not require a Next.js component, npm dependency or build step. The Vercel script is unavailable in the local Python preview.
+
 ## Content and maintenance
 
 - The selected product visuals are labelled design concepts, not photographs of completed hardware. Team portraits and development CAD come from the supplied package. See [asset provenance](assets/media/ASSET_SOURCES.md).
