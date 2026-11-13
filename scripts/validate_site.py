@@ -213,6 +213,9 @@ class Validator:
             if not re.fullmatch(r"[^@\s?]+@[^@\s?]+\.[^@\s?]+", urlsplit(reference).path):
                 self.error(source, f"invalid email destination {reference!r}", line)
             return
+        # Vercel serves its analytics script at deployment time.
+        if context == "script[src]" and reference == "/_vercel/insights/script.js":
+            return
         target, fragment = self.local_target(source, reference)
         if target is None:
             return
